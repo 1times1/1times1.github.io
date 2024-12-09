@@ -2,13 +2,48 @@
     font-family: "OpenSans";
     src: url("../fonts/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf");
     font-synthesis: none;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "OpenSansItalic";
+    font-family: "OpenSans";
     src: url("../fonts/OpenSans/OpenSans-Italic-VariableFont_wdth\,wght.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "MonaspaceNeon";
+    src: url("../fonts/MonaspaceNeon/MonaspaceNeonVarVF[wght\,wdth\,slnt].ttf");
 }
 
 :root {
+    font-synthesis: none;
+    font-family: "MonaspaceNeon", sans-serif;
+}
+
+.fic {
+    align-content: center;
+    padding-bottom: 5%;
+
     font-family: "OpenSans", sans-serif;
+    
+    max-width: 900px;
+    margin: auto;
+    padding: 1em;
+
+    h1, h2 {
+        font-family: Georgia, serif;
+        font-weight: normal;
+        text-align: center;
+        padding-top: 2em;
+    }
+
+    h1 {
+        padding-bottom: 1em;
+    }
+
+    .sep {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
 }
