@@ -23,13 +23,13 @@
 
 .fic {
     align-content: center;
-    padding-bottom: 5%;
 
     font-family: "OpenSans", sans-serif;
     
     max-width: 900px;
-    margin: auto;
-    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
 
     h1, h2 {
         font-family: Georgia, serif;
@@ -45,5 +45,10 @@
     .sep {
         padding-top: 3em;
         padding-bottom: 3em;
+    }
+
+    .fictext {
+        margin-top: 20%;
+        margin-bottom: 20%;
     }
 }
