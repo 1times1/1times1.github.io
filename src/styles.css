@@ -1,58 +1,88 @@
 :root {
-    --font-size-normal: normal;
-    --font-size-h1: 2em;
-    --font-size-h2: 1.4em;
+    --font-size-normal: unset;
+    --font-size-h1: 2rem;
+    --font-size-h2: 1.4rem;
+    --font-sans-serif: "Open Sans", sans-serif;
+    --font-serif: Georgia, serif;
     font-synthesis: none;
-    font-family: "Open Sans", sans-serif;
-    max-width: 900px;
-    margin: 0px auto;
-    font-size: var(--font-size-normal);
+    font-family: var(--font-sans-serif);
     
+    font-size: var(--font-size-normal);
+    justify-content: center;
+    display: flex
+    
+}
+
+video {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: 1rem;
+
+    .homepageLink {
+        
+        text-decoration: underline dotted;
+
+    }
+}
+
+li {
+    margin-top: 0.7em;
+}
+
+a {
+    color: unset;
+    &:hover {
+        color: gray;
+    }
+}
+h1, h2 {
+    font-family: var(--font-serif);
+    font-weight: normal;
+}
+
+h1 {
+    font-size: var(--font-size-h1)
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+body {
+    margin: 3rem 20px;
+    max-width: 60rem;
+    width: 100%;
+   
+}
+
+quote {
+    font-family: var(--font-serif);
+    font-size: var(--font-size-h2);
+}
+
+.ficlist {
     li {
-        margin-top: 0.7em;
+        font-style: italic;
+        
+        small {
+            font-style: normal;
+            
+        }
     }
-
-    h1, h2 {
-        font-family: Georgia, serif;
-        font-weight: normal;
-    }
-
-    h1 {
-        font-size: var(--font-size-h1)
-    }
-
-    h2 {
-        font-size: var(--font-size-h2);
-    }
-
-    body {
-        padding: 2%;
-    }
-
-    quote {
-        font-family: Georgia, serif;
-        font-size: var(--font-size-h2);
-    }
-
 }
 
 .fic {
-    align-content: center;
-
-    font-family: "Open Sans", sans-serif;
     
-    max-width: 900px;
     margin-bottom: 10%;
     
 
     h1, h2 {
-        font-family: Georgia, serif;
-        font-weight: normal;
         text-align: center;
-        padding-top: 2em;
-    }
-
-    h1 {
         padding-bottom: 1em;
     }
 
@@ -61,6 +91,6 @@
     }
 
     .fictext {
-        margin: 20% 0px;
+        margin: 15rem 0px;
     }
 }
