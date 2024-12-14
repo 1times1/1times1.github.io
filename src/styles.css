@@ -1,27 +1,9 @@
-@font-face {
-    font-family: "OpenSans";
-    src: url("../fonts/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf");
-    font-synthesis: none;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "OpenSans";
-    src: url("../fonts/OpenSans/OpenSans-Italic-VariableFont_wdth\,wght.ttf");
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "MonaspaceNeon";
-    src: url("../fonts/MonaspaceNeon/MonaspaceNeonVarVF[wght\,wdth\,slnt].ttf");
-}
-
 :root {
-    --font-size-normal: 16px;
-    --font-size-h1: 32px;
-    --font-size-h2: 22px;
+    --font-size-normal: normal;
+    --font-size-h1: 2em;
+    --font-size-h2: 1.4em;
     font-synthesis: none;
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     max-width: 900px;
     margin: 0px auto;
     font-size: var(--font-size-normal);
@@ -57,7 +39,7 @@
 .fic {
     align-content: center;
 
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     
     max-width: 900px;
     margin-bottom: 10%;
